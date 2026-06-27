@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy</title>
 <style>
-  :root { color-scheme: light dark; }
+  /* Force a single light theme so text contrast is consistent everywhere,
+     regardless of the browser's or operating system's dark-mode setting. */
+  :root { color-scheme: light; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
@@ -13,35 +15,33 @@
     margin: 0 auto;
     padding: 2.5rem 1.25rem 4rem;
     color: #1a2628;
-    background: #fff;
+    background: #ffffff;
   }
-  @media (prefers-color-scheme: dark) {
-    body { color: #e4e7e7; background: #14181a; }
-    a { color: #5ec6cf; }
-    .summary { background: #1d2426; border-color: #2c3a3d; }
-    .app { border-color: #2c3a3d; }
-  }
-  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
-  h2 { font-size: 1.25rem; margin-top: 2rem; border-bottom: 1px solid rgba(127,127,127,0.2); padding-bottom: 0.3rem; }
-  h3 { font-size: 1.05rem; margin: 0 0 0.4rem; }
-  .effective { color: #6b7a7c; font-size: 0.95rem; margin-top: 0; }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; color: #14201f; }
+  h2 { font-size: 1.25rem; margin-top: 2rem; border-bottom: 1px solid #d7e0df; padding-bottom: 0.3rem; color: #14201f; }
+  h3 { font-size: 1.05rem; margin: 0 0 0.4rem; color: #14201f; }
+  p, li { color: #1a2628; }
+  .effective { color: #52605f; font-size: 0.95rem; margin-top: 0; }
   a { color: #045a63; }
   ul { padding-left: 1.25rem; }
   li { margin: 0.3rem 0; }
   .summary {
-    background: #f2f7f6;
-    border: 1px solid #dceae8;
+    background: #eaf3f1;
+    border: 1px solid #cfe2de;
+    color: #1a2628;
     border-radius: 12px;
     padding: 1rem 1.25rem;
     margin: 1.5rem 0;
   }
   .app {
-    border: 1px solid #e2eceb;
+    background: #ffffff;
+    border: 1px solid #d7e0df;
+    color: #1a2628;
     border-radius: 12px;
     padding: 1rem 1.25rem;
     margin: 1rem 0;
   }
-  footer { margin-top: 3rem; color: #6b7a7c; font-size: 0.9rem; }
+  footer { margin-top: 3rem; color: #52605f; font-size: 0.9rem; }
 </style>
 </head>
 <body>
